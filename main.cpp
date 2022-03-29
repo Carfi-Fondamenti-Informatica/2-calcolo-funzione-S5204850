@@ -2,7 +2,7 @@
 
 int main() {
 
-    float a=0; float b=0; float x=0; float y=0; float z=0;
+    float a,b,x,y,z;
     std::cin>>x>>y>>a>>b;
     if(x<0 && y>0){
          z=a*x-b*y;
