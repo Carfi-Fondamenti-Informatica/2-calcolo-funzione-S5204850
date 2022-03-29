@@ -3,7 +3,7 @@
 int main() {
 
     float a,b,x,y,z;
-    std::cin>>x>>y>>a>>b;
+    std::cin>>a>>b>>x>>y;
     if(x<0 && y>0){
          z=a*x-b*y;
         std::cout<<z<<std::endl;
